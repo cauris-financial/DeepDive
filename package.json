@@ -1,0 +1,39 @@
+{
+	"name": "deepdive",
+	"version": "1.0.0",
+	"description": "Contracts for managing access and hash lookups for off chain analytics",
+	"main": "truffle-config.js",
+	"directories": {
+		"test": "test"
+	},
+	"dependencies": {
+		"@celo/contractkit": "^1.2.4",
+		"@dexfair/celo-web-signer": "^0.5.6",
+		"@metamask/detect-provider": "^1.2.0",
+		"@openzeppelin/contracts": "^4.3.0",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"@truffle/hdwallet-provider": "^1.4.3",
+		"human-standard-token-abi": "^2.0.0",
+		"solidity-util": "github:willitscale/solidity-util",
+		"truffle": "^5.4.6",
+		"truffle-privatekey-provider": "^1.5.0",
+		"web-vitals": "^1.0.1",
+		"web3": "^1.5.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cauris-financial/DeepDive.git"
+	},
+	"author": "Charles Packer",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cauris-financial/DeepDive/issues"
+	},
+	"homepage": "https://github.com/cauris-financial/DeepDive#readme"
+}
