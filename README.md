@@ -8,6 +8,8 @@ Data is stored off-chain on the Pinata IPFS network. The data is stored as JSON.
 
 A Node.js server allows for the uploading of .xlsx files. These files are then converted into JSON files and stored on IPFS with a corresponding hash.
 
+That hash is then stored on the DeepDive smart contract, enabling the front-end access to the JSON data.
+
 ## Front End Implementation
 
 We have deployed a front end implementation for these smart contracts here: https://github.com/cauris-financial/cauris_app_web
